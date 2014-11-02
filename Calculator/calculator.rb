@@ -1,6 +1,8 @@
 # 1. string interpolation vs concat
 # 2. extract repetitive logic to methods
 # 3. keep track of variable types (class)
+# 4. variable scope determined by do...end; outer scope vars are available to innter scope, but not vice versa.
+# 5. pass by ref vs pass by value; if method mutates caller, outer obj was modified.
 
 def say(msg)
   puts "=> #{msg}"
