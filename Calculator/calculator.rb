@@ -25,4 +25,4 @@ elsif operator == '4'
   result = num1.to_f / num2.to_f
 end
 
-puts "Result is #{result}"
+say "Result is #{result}"
